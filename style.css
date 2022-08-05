@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ 
+ body {
+ font-family:'Noto Serif', serif;
+ }
+
+.barra {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(252, 252, 253, 0.842);
+    color:rgb(3, 3, 119) ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.iniciales {
+    font-size: large;
+    margin-top: -7px;
+}
+
+.iniciales span {
+color: rgb(0, 217, 255);
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    font-size: medium;
+    color: rgb(3, 3, 119) ;
+    text-decoration: none;
+    padding: 10px;
+} 
+
+h1 {
+    justify-content: center;
+    font-size: 40px;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 88vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.main img {
+    width: 650px;
+    height: 500px;
+
+}
+
+
+.acerca {
+    background-color: rgba(154, 201, 251, 0.33);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color:rgb(3, 3, 119);
+    width: 100vw;
+}
+
+.acerca-info {
+    justify-content: center;
+    padding: 3em;
+}
+
+.acerca-info h2 {
+    color: rgb(3, 3, 119);
+    font-size: 60px;
+}
+.acerca img {
+    width: 600px;
+    height: 700px;
+    padding: 5px;
+    background-color: rgb(3, 3, 119);
+}
+
+
+.conocimientos {
+    color: rgb(3, 3, 119);
+    font-size: medium;
+    margin: 0 auto;
+    width: 80vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
+}
+
+.contenerdor-conoocimientos p {
+    justify-content: left;
+}
+
+.conocimientos h2 {
+    color: rgb(3, 3, 119);
+    font-size: 40px;
+    justify-content: left;
+    padding: 15px;
+}
+
+.click-proyectos {
+    padding: 10px 20px;
+    background-color: rgb(0, 217, 255);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: rgb(3, 3, 119);
+}
+
+.conocimientos img {
+    margin-left: 200px;
+    padding: 5px;
+    background-color: rgb(3, 3, 119);
+    border-radius: 5%;
+    width: 850px;
+    height: 650px;
+    
+}
+
+
+.educacion {
+    background-color: rgba(154, 201, 251, 0.33) ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color:rgb(3, 3, 119)
+}
+
+.contenedor-educacion {
+    justify-content: center;
+    padding: 3em;
+}
+
+.contenedor-educacion h2 {
+    color: rgb(3, 3, 119);
+    font-size: 40px;
+}
+
+.educacion img {
+    width: 750px;
+    height: 700px;
+    padding: 5px;
+    background-color: rgb(3, 3, 119);
+
+    
+    
+}
+
+
+.experiencia {
+background-color: rgba(154, 201, 251, 0.33);
+}
+
+.primera-experiencia {
+    color: rgb(3, 3, 119);
+    font-size: medium;
+    margin: 0 auto;
+    width: 80vw;
+    height: 88vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
+}
+
+
+.primera-experiencia img {
+    margin-left: 200px;
+    padding: 5px;
+    background-color: rgb(3, 3, 119);
+    border-radius: 5%;
+    width: 650px;
+    height: 450px;
+    justify-content: right;
+}
+
+.segunda-experiencia {
+    color: rgb(3, 3, 119);
+    font-size: medium;
+    margin: 0 auto;
+    width: 80vw;
+    height: 88vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
+}
+
+.segunda-experiencia img {
+    margin-left: 200px;
+    padding: 5px;
+    background-color: rgb(3, 3, 119);
+    border-radius: 5%;
+    width: 650px;
+    height: 450px;
+    justify-content: right;
+}
+
+
+.tercera-experiencia {
+    color: rgb(3, 3, 119);
+    font-size: medium;
+    margin: 0 auto;
+    width: 80vw;
+    height: 88vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
+}
+
+.tercera-experiencia img {
+    margin-left: 200px;
+    padding: 5px;
+    background-color: rgb(3, 3, 119);
+    border-radius: 5%;
+    width: 800px;
+    height: 500px;
+    justify-content: right;
+}
+.contacto {
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(4, 4, 101);
+    color: white;
+}
+
+.contacto h2 {
+    display: grid;
+    justify-content: center;
+    font-size: 45px;
+  }
+
+.contacto p {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px ;
+  }
